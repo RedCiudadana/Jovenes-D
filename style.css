@@ -16738,7 +16738,8 @@ label.checkbox { padding-left: 20px; }
   background-color: orange;
   border-color: #fff;
   color: #fff;
-  border:2px solid white;
+  border:1.4px solid white;
+  border-radius: 5px;
   text-align: center;
   padding: 0.5rem 2rem;
 }
