@@ -16780,3 +16780,24 @@ label.checkbox { padding-left: 20px; }
 	padding: 1rem 1rem 0 0; 
 	font-size: 12px;
 }
+
+.mt-5v{
+	margin-top: 3.5rem;
+}
+
+@media (max-width: 992px){
+	.mt-5v{
+		margin-top: 100px;
+	}
+
+}
+
+#content{
+	margin-top: 30px!important;
+}
+
+.imagen-s{
+	margin-top: 140px!important;
+}
+
+
