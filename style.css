@@ -16745,3 +16745,38 @@ label.checkbox { padding-left: 20px; }
   text-align: center;
   padding: 0.5rem 2rem;
 }
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+@media (max-width: 992px){
+	.dropdown-menu{
+		display: none!important;
+		width: 100%;
+	}
+
+}
+
+.nav-link:hover{
+	color: orange!important;
+}
+
+.tc-orange:hover{
+	color: orange!important;
+}
+
+.bg-header{
+	background-color: #009681;
+}
+
+.top-links{
+	padding: 0 1rem 0 1rem; 
+	background-color: #02b08f;
+	position: absolute;
+	z-index: 10005; 
+}
+.top-items{
+	padding: 1rem 1rem 0 0; 
+	font-size: 12px;
+}
