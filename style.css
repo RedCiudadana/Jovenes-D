@@ -16800,4 +16800,10 @@ label.checkbox { padding-left: 20px; }
 	margin-top: 140px!important;
 }
 
-
+.padre {
+   padding: 5% 0;
+}
+.hijo {
+   padding: 10% 0;
+   text-align: center;
+}
