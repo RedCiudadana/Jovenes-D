@@ -16841,3 +16841,7 @@ label.checkbox { padding-left: 20px; }
    padding: 10% 0;
    text-align: center;
 }
+.linkst{
+	padding: 0 1rem 0 1rem; 
+	background-color:#1D1D1B;
+}
