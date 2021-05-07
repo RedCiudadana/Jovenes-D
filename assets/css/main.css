@@ -46,7 +46,7 @@
   	Creation date: 26/01/2020 04:05
   	*/
 @font-face {
-  font-family: "Flaticon";
+
   src: url("../fonts/Flaticon.eot");
   src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff2") format("woff2"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
@@ -54,12 +54,12 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
-    font-family: "Flaticon";
+
     src: url("./Flaticon.svg#Flaticon") format("svg"); } }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-  font-family: Flaticon;
+
   font-style: normal;
   line-height: 1; }
 
@@ -97,7 +97,7 @@
   content: "\f10a"; }
 
 body {
-  font-family: "Rubik", sans-serif;
+
   font-weight: normal;
   font-style: normal;
   color: #748188; }
@@ -156,7 +156,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow", sans-serif;
+
   color: #233f4d;
   margin-top: 0px;
   font-style: normal;
@@ -1672,7 +1672,7 @@ label {
   font-weight: 500;
   font-size: 13px;
   padding: 5px 9px;
-  font-family: "Barlow", sans-serif;
+
   text-transform: uppercase;
   border-radius: 5px; }
 
@@ -1707,7 +1707,7 @@ label {
   color: #233f4d;
   margin-left: 5px;
   font-weight: 600;
-  font-family: "Barlow", sans-serif; }
+}
 
 .lang-icon i {
   font-size: 15px;
@@ -1760,7 +1760,7 @@ label {
   line-height: 1;
   padding: 9px 17px;
   border-radius: 5px;
-  font-family: "Barlow", sans-serif; }
+ }
   .header-02-info a i {
     padding-right: 5px;
     color: #03b664; }
@@ -1849,7 +1849,7 @@ label {
   text-transform: capitalize;
   display: inline-block;
   line-height: 1;
-  font-family: "Barlow", sans-serif; }
+ }
 
 .header-02-login i {
   padding-right: 6px;
@@ -1928,7 +1928,7 @@ label {
   text-transform: capitalize;
   color: #fff;
   font-weight: 600;
-  font-family: "Barlow", sans-serif; }
+}
 
 .main-menu nav > ul > li > a i {
   font-size: 14px;
@@ -2086,7 +2086,7 @@ label {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  font-family: "Barlow", sans-serif;
+
   padding: 7px 21px 7px 0;
   border-radius: 30px; }
   .section-title span i {
@@ -2459,7 +2459,7 @@ label {
   line-height: 1;
   padding: 5px 11px;
   display: inline-block;
-  font-family: "Barlow", sans-serif;
+
   border-radius: 3px; }
 
 .f-meta-list span {
@@ -2503,7 +2503,7 @@ label {
   margin-top: -55px;
   color: #233f4d;
   font-weight: 600;
-  font-family: "Barlow", sans-serif; }
+ }
 
 .case-info p {
   margin-bottom: 17px; }
@@ -2793,7 +2793,7 @@ label {
     right: 26px;
     position: absolute;
     color: #748188;
-    font-family: "Font Awesome 5 Pro";
+
     font-weight: 400;
     font-size: 18px;
     top: 21px; }
@@ -3285,7 +3285,7 @@ label {
   margin-bottom: 42px;
   color: #233f4d;
   line-height: 40px;
-  font-family: "Barlow", sans-serif;
+
   font-weight: 600;
   margin-left: 43px;
   margin-right: 43px; }
@@ -3688,7 +3688,7 @@ label {
       font-size: 18px;
       color: #748188;
       font-weight: 400;
-      font-family: "Barlow", sans-serif; }
+}
     .blog-meta span i {
       font-size: 18px;
       margin-right: 5px; }
@@ -3851,7 +3851,7 @@ blockquote {
     top: 45px;
     position: absolute;
     color: #233f4d;
-    font-family: "Font Awesome 5 Pro";
+
     font-size: 50px;
     opacity: .2; }
   blockquote p {
@@ -3859,7 +3859,7 @@ blockquote {
     margin-bottom: 20px;
     color: #233f4d;
     font-weight: 700;
-    font-family: "Barlow", sans-serif;
+
     line-height: 30px; }
   blockquote footer {
     font-size: 18px;
@@ -4125,7 +4125,7 @@ button.b-btn.btn-black {
 .contact-icon::after {
   position: absolute;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+
   font-weight: 700;
   display: inline-block;
   font-size: 16px;
@@ -4263,7 +4263,7 @@ button.b-btn.btn-black {
   .footer-link ul li::before {
     color: #a0aeb8;
     content: "\f101";
-    font-family: "Font Awesome 5 Pro";
+
     font-size: 30px;
     position: absolute;
     left: 0;
@@ -4775,7 +4775,7 @@ button.b-btn.btn-black {
   left: 28px;
   top: 25px;
   font-size: 15px;
-  font-family: "Font Awesome 5 Pro";
+
   color: #ffffff; }
 
 .bg_ {
@@ -4825,7 +4825,7 @@ button.b-btn.btn-black {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
-    font-family: "Barlow", sans-serif;
+
     padding: 7px 21px 7px 0;
     border-radius: 30px; }
     .slider-text > span i {
@@ -4925,7 +4925,7 @@ button.b-btn.btn-black {
   font-weight: 700;
   margin-left: 16px;
   border-bottom: 1px solid #ffffff;
-  font-family: "Barlow", sans-serif; }
+ }
 
 .slid-wrapper {
   background: #ffffff;
@@ -4942,7 +4942,7 @@ button.b-btn.btn-black {
   color: #748188;
   font-weight: 600;
   border-radius: 0;
-  font-family: "Barlow", sans-serif;
+
   background: #f4f4f4; }
 
 .slid-wrapper #volunteer-us-form input::-moz-placeholder {
@@ -5009,7 +5009,7 @@ button.b-btn.btn-black {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
-  font-family: "Barlow", sans-serif;
+
   padding: 7px 21px 7px 0;
   border-radius: 30px; }
   .slider-content > span i {
@@ -5119,7 +5119,7 @@ button.b-btn.btn-black {
   position: absolute;
   top: 5px;
   left: -7px;
-  font-family: "Font Awesome 5 Pro";
+
   color: #fff;
   font-size: 20px; }
 
@@ -5204,7 +5204,6 @@ button.b-btn.btn-black {
   .history-line::after {
     position: absolute;
     content: "\f30b";
-    font-family: "Font Awesome 5 Pro";
     font-weight: 400;
     display: inline-block;
     font-size: 15px;
@@ -5223,7 +5222,7 @@ button.b-btn.btn-black {
   .history-line::before {
     position: absolute;
     content: "\f30a";
-    font-family: "Font Awesome 5 Pro";
+
     font-weight: 400;
     display: inline-block;
     font-size: 15px;
@@ -5386,7 +5385,7 @@ button.b-btn.btn-black {
 .contacts-icon::after {
   position: absolute;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+
   font-weight: 700;
   display: inline-block;
   font-size: 16px;
@@ -5598,7 +5597,7 @@ button.b-btn.btn-black {
   color: #748188;
   font-weight: 600;
   border-radius: 0;
-  font-family: "Barlow", sans-serif; }
+ }
 
 .volunteer-us-form textarea {
   border: none;
@@ -5610,7 +5609,7 @@ button.b-btn.btn-black {
   color: #748188;
   font-weight: 600;
   border-radius: 0;
-  font-family: "Barlow", sans-serif; }
+}
 
 #volunteer-us-form input::-moz-placeholder {
   font-size: 18px;
@@ -5668,7 +5667,7 @@ button.b-btn.btn-black {
 .volunteer-icon::after {
   position: absolute;
   content: "";
-  font-family: "Font Awesome 5 Pro";
+
   font-weight: 400;
   display: inline-block;
   font-size: 18px;

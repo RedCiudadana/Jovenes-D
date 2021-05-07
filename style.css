@@ -219,7 +219,7 @@ h5,
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Montserrat-Bold';
+	font-family: 'Montserrat-Bold'!important;
 }
 
 
@@ -228,21 +228,21 @@ h4{
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 4px 0;
-	font-family: 'Montserrat-Bold';
+	font-family: 'Montserrat-Bold'!important;
 }
 
 h5{ margin-bottom: 20px; }
 
 h1 { font-size: 36px; 
-	font-family: 'Montserrat-SemiBold';}
+	font-family: 'Montserrat-SemiBold'!important;}
 
 h2 { 
 	font-size: 35px; 
-	font-family: 'Montserrat-SemiBold';
+	font-family: 'Montserrat-SemiBold'!important;
 }
 
 h4,h6 { 
-	font-family: 'Montserrat-SemiBold';
+	font-family: 'Montserrat-SemiBold'!important;
 	text-align: center;
 }
 
@@ -255,7 +255,7 @@ p #pB{
 .caja { 
 	color: #ffffff;
     font-size: 30px;
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold'!important;
     font-weight: 400;
     text-align: center;
     margin: 0 0 5px;
@@ -325,7 +325,7 @@ table,
 fieldset,
 form { margin-bottom: 2px; }
 
-small { font-family: 'Montserrat-Regular'!important;}
+small { font-family: 'Montserrat-Regular'!important;!important}
 
 .meto{
 	text-decoration: underline black;
@@ -16845,3 +16845,43 @@ label.checkbox { padding-left: 20px; }
 	padding: 0 1rem 0 1rem; 
 	background-color:#1D1D1B;
 }
+
+/*Slider de Encuentro*/
+.sliderE{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.sliderE ul{
+	display: flex;
+	padding: 0;
+	width: 500%;
+
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: ease-in;
+}
+.sliderE li{
+	list-style: none;
+	width: 100%
+}
+.sliderE img{
+	width: 100%
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	18%{margin-left: 0;}
+
+	22%{margin-left: -100%;}
+	38%{margin-left: -100%;}
+
+	42%{margin-left: -200%;}
+	58%{margin-left: -200%;}
+
+	62%{margin-left: -300%;}
+	78%{margin-left: -300%;}
+
+	82%{margin-left: -400%;}
+	100%{margin-left: -400%;}
+} 
+
