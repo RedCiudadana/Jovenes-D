@@ -325,7 +325,11 @@ table,
 fieldset,
 form { margin-bottom: 2px; }
 
-small { font-family: 'Montserrat-Regular'!important;!important}
+small { font-family: 'Montserrat-Regular'!important;}
+
+body,p{
+	font-family: 'Montserrat-Regular'!important;
+}
 
 .meto{
 	text-decoration: underline black;

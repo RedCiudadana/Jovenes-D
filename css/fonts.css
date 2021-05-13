@@ -12,7 +12,8 @@ small,
 .fbox-center.fbox-italic p,
 .skills li .progress-percent .counter,
 .nav-tree ul ul a,
-.font-body { font-family: 'Lato', sans-serif !important; }
+.font-body { font-family: 'Montserrat-Regular'!important }
+
 
 
 h3,
@@ -33,7 +34,7 @@ label,
 .wedding-head,
 .font-primary { font-family: 'Poppins', sans-serif !important; }
 
-h1,h2,h4 { font-family: 'Recoleta-Semibold', sans-serif !important; }
+h1,h2,h4 { font-family: 'Montserrat-SemiBold' }
 
 .entry-link span,
 .entry blockquote p,
