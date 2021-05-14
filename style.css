@@ -16922,3 +16922,17 @@ label.checkbox { padding-left: 20px; }
 .centrado2 h1{
 	font-size: 4vw!important;
 }
+
+.half-size{
+	margin: auto;
+	height: 50%;
+	width: 50%;
+}
+
+@media (max-width: 800px){
+	.half-size{
+		height: 100%;
+		width: 100%;
+	}
+
+}
