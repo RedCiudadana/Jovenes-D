@@ -16935,4 +16935,9 @@ label.checkbox { padding-left: 20px; }
 		width: 100%;
 	}
 
+	.px-6{
+		padding-left:2rem!important;
+		padding-right:2rem!important;
+	}
+
 }
