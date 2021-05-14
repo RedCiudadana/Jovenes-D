@@ -16911,3 +16911,14 @@ label.checkbox { padding-left: 20px; }
 .centrado h1{
 	font-size: 4vw!important;
 }
+
+.centrado2{
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    color: #fff;   
+}
+.centrado2 h1{
+	font-size: 4vw!important;
+}
