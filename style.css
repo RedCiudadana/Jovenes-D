@@ -16993,7 +16993,9 @@ label.checkbox { padding-left: 20px; }
 }
 
 @media (max-width: 800px){
-
+	.mslider{
+		margin-top: 7.5vw;
+	}
 	.centrado20{
 		left: 35%;
 	}
@@ -17014,6 +17016,17 @@ label.checkbox { padding-left: 20px; }
 	}
 }
 
+@media (max-width: 1000px){
+	.mslider{
+		margin-top: 3vw;
+	}
+}
+
+@media (max-width: 400px){
+	.mslider{
+		margin-top: 12vw;
+	}
+}
 
 .carousel-control-prev, .carousel-control-next{
 	top: 100px!important;
