@@ -17035,7 +17035,21 @@ label.checkbox { padding-left: 20px; }
 	margin-bottom: -8px;
 }
 
+@media (max-width: 1000px){
+	.SusImg{
+		height: 100%; 
+		width: 100%;
+		margin-bottom: -8px;
+	}
+}
 
+@media (max-width: 760px){
+	.SusImg{
+		height: 20vw; 
+		width: 13.3vw;
+		margin-bottom: -8px;
+	}
+}
 
 .carousel-control-prev, .carousel-control-next{
 	top: 100px!important;
