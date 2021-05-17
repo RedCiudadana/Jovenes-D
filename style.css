@@ -16993,16 +16993,27 @@ label.checkbox { padding-left: 20px; }
 }
 
 @media (max-width: 800px){
-	.mslider{
-		margin-top: 7.5vw;
+
+	.centrado20{
+		left: 35%;
+	}
+	.centrado25{
+		left: 35%;
+	}
+	.centrado30{
+		left: 35%;
+	}
+	.centrado35{
+		left: 35%;
+	}
+	.centrado40{
+		left: 35%;
+	}
+	.centrado45{
+		left: 35%;
 	}
 }
 
-@media (max-width: 400px){
-	.mslider{
-		margin-top: 12vw;
-	}
-}
 
 .carousel-control-prev, .carousel-control-next{
 	top: 100px!important;
