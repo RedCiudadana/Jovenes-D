@@ -17028,6 +17028,15 @@ label.checkbox { padding-left: 20px; }
 	}
 }
 
+
+.SusImg{
+	height: 20vw; 
+	width: 13.3vw;
+	margin-bottom: -8px;
+}
+
+
+
 .carousel-control-prev, .carousel-control-next{
 	top: 100px!important;
 }
