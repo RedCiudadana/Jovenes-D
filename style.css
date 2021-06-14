@@ -17008,13 +17008,39 @@ label.checkbox { padding-left: 20px; }
 	.centrado35{
 		left: 35%;
 	}
-	.centrado40{
+	.centrado4{
 		left: 35%;
 	}
 	.centrado45{
 		left: 35%;
 	}
 }
+
+@media (min-width: 1600px){
+	.mslider{
+		margin-top: 7.5vw;
+	}
+	.centrado20{
+		left: 30%;
+	}
+	.centrado25{
+		left: 30%;
+	}
+	.centrado30{
+		left: 30%;
+	}
+	.centrado35{
+		left: 30%;
+	}
+	.centrado4{
+		left: 30%;
+	}
+	.centrado45{
+		left: 30%;
+	}
+}
+
+
 
 @media (max-width: 1000px){
 	.mslider{
@@ -17121,4 +17147,8 @@ border-left: 2px solid rgba(255, 140, 0, .5);
 border-top: 2px solid rgba(255, 140, 0, .5);
 animation: rotarload 1s ease-out infinite;
 transform: rotate(0deg);
+}
+
+.p-3 p{
+	line-height: 1.5;
 }
