@@ -17045,11 +17045,14 @@ label.checkbox { padding-left: 20px; }
 
 @media (max-width: 760px){
 	.SusImg{
+		display: none;
 		height: 20vw; 
 		width: 13.3vw;
 		margin-bottom: -8px;
 	}
+
 }
+
 
 .carousel-control-prev, .carousel-control-next{
 	top: 100px!important;
